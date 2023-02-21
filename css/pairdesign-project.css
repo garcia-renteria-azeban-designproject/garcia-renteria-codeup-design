@@ -11,3 +11,75 @@
     width: 10%;
     height: auto;
 }
+#header {
+    margin-top: 5em;
+    border: solid 1px blue;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sub-header {
+    margin-top: 1em;
+    border: solid 1px blue;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dots {
+    margin: auto;
+    border: solid 2px yellow;
+}
+#red-dot {
+    background-color: #E6563B;
+    border: solid 5px #FFFFFF;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Anton", sans-serif;
+}
+#orange-dot {
+    background-color: #EB9D3A;
+    border: solid 5px #FFFFFF;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Anton", sans-serif;
+}
+#green-dot {
+    background-color: #7CB06C;
+    border: solid 5px #FFFFFF;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Anton", sans-serif;
+}
+#blue-dot {
+    background-color: #00ABA9;
+    border: solid 5px #FFFFFF;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Anton", sans-serif;
+}
