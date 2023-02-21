@@ -80,3 +80,68 @@
     color: #FFFFFF;
     font-family: "Anton", sans-serif;
 }
+#img-icons {
+    display: flex;
+    justify-content: end;
+    margin: .5em;
+    float: right;
+}
+#red-sm-dot {
+    background-color: #E6563B;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: "Anton", sans-serif;
+    font-size: smaller;
+    margin: 0 .25em;
+}
+#orange-sm-dot {
+    background-color: #EB9D3A;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: "Anton", sans-serif;
+    font-size: smaller;
+    margin: 0 .25em;
+}
+#green-sm-dot {
+    background-color: #7CB06C;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: "Anton", sans-serif;
+    font-size: smaller;
+    margin: 0 .25em;
+}
+#blue-sm-dot {
+    background-color: #00ABA9;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: "Anton", sans-serif;
+    font-size: smaller;
+    margin: 0 .25em;
+}
+#feat-proj {
+    display: flex;
+    justify-content: start;
+    margin: 1em;
+    font-family: "Abel", sans-serif;
+    float: left;
+}
