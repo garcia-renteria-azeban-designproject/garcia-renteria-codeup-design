@@ -145,3 +145,7 @@
     font-family: "Abel", sans-serif;
     float: left;
 }
+p {
+    display: flex;
+    justify-content: center;
+}
