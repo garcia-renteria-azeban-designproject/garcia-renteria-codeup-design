@@ -4,6 +4,13 @@
     box-sizing: border-box;
     background-color: #F0F0F0;
 }
+body {
+    background-color: #F0F0F0;
+}
+#main{
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+}
 #website-fonts {
     font-family: 'Abel', sans-serif;
 }
@@ -80,6 +87,15 @@
     color: #FFFFFF;
     font-family: "Anton", sans-serif;
 }
+
+#left-images{
+    width: 95%;
+    height: auto;
+}
+#left-side {
+    border: solid 1px red;
+}
+
 #img-icons {
     display: flex;
     justify-content: end;
@@ -150,6 +166,70 @@ p {
     justify-content: center;
 }
 #rgt-images {
+
+    border: green solid 1px;
+    display: flex;
+    width: 5%;
+    height: auto;
+
+    margin: 1em;
+}
+#rgt-sd {
+    width: 65%;
+    /*border: solid red 2px;*/
+    display: flex;
+    /*flex-direction: column;*/
+    font-family: "Anton", sans-serif;
+}
+#right-text{
+    border: solid blue 1px;
+
+    display: flex;
+    word-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    margin: 1em;
+    font-size: x-large;
+
+
+
+}
+#thumbnails {
+    /*border: solid yellow 3px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+#last-tweet {
+    position: relative;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+    /*border: orange solid 1px;*/
+    font-family: "Abel", sans-serif;
+}
+#tweet {
+    /*position: absolute;*/
+    /*!*top: 0;*!*/
+    /*!*left: 0;*!*/
+
+    /*border: solid blue 2px;*/
+    display: flex;
+    height: 15%;
+    width: 15%;
+}
+#content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    /*flex-direction: row;*/
+    /*border: solid green 3px;*/
+
+
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -161,4 +241,5 @@ p {
     display: flex;
     flex-direction: column;
     font-family: "Anton", sans-serif;
+
 }
