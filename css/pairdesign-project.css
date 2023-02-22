@@ -149,3 +149,11 @@ p {
     display: flex;
     justify-content: center;
 }
+#rgt-images {
+    display: inline-flex;
+    width: 25%;
+    height: auto;
+}
+#rgt-sd {
+    border: solid red 2px;
+}
