@@ -4,6 +4,9 @@
     box-sizing: border-box;
     background-color: #F0F0F0;
 }
+body {
+    background-color: #F0F0F0;
+}
 #website-fonts {
     font-family: 'Abel', sans-serif;
 }
@@ -13,7 +16,6 @@
 }
 #header {
     margin-top: 5em;
-    border: solid 1px blue;
     text-align: center;
     font-family: "Anton", sans-serif;
     font-size: xxx-large;
@@ -23,7 +25,6 @@
 }
 #sub-header {
     margin-top: 1em;
-    border: solid 1px blue;
     text-align: center;
     font-family: "Anton", sans-serif;
     font-size: xxx-large;
@@ -32,8 +33,7 @@
     align-items: center;
 }
 #dots {
-    margin: auto;
-    border: solid 2px yellow;
+    margin-top: 2em;
 }
 #red-dot {
     background-color: #E6563B;
@@ -82,4 +82,77 @@
     align-items: center;
     color: #FFFFFF;
     font-family: "Anton", sans-serif;
+}
+#img-icons {
+    display: flex;
+    justify-content: end;
+    margin: .5em;
+    float: right;
+}
+#red-sm-dot {
+    background-color: #E6563B;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: "Anton", sans-serif;
+    font-size: smaller;
+    margin: 0 .25em;
+}
+#orange-sm-dot {
+    background-color: #EB9D3A;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: "Anton", sans-serif;
+    font-size: smaller;
+    margin: 0 .25em;
+}
+#green-sm-dot {
+    background-color: #7CB06C;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: "Anton", sans-serif;
+    font-size: smaller;
+    margin: 0 .25em;
+}
+#blue-sm-dot {
+    background-color: #00ABA9;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: "Anton", sans-serif;
+    font-size: smaller;
+    margin: 0 .25em;
+}
+#feat-proj {
+    display: flex;
+    justify-content: start;
+    margin: 1em;
+    font-family: "Abel", sans-serif;
+    float: left;
+}
+p {
+    display: flex;
+    justify-content: center;
+}
+#imgs:hover {
+    /*border: solid #E6E6E6 188px;*/
+    background-color: yellow;
 }
