@@ -87,6 +87,7 @@ body {
     color: #FFFFFF;
     font-family: "Anton", sans-serif;
 }
+
 #left-images{
     width: 95%;
     height: auto;
@@ -94,6 +95,7 @@ body {
 #left-side {
     border: solid 1px red;
 }
+
 #img-icons {
     display: flex;
     justify-content: end;
@@ -164,6 +166,7 @@ p {
     justify-content: center;
 }
 #rgt-images {
+
     border: green solid 1px;
     display: flex;
     width: 5%;
@@ -225,5 +228,18 @@ p {
     display: flex;
     /*flex-direction: row;*/
     /*border: solid green 3px;*/
+
+
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 25%;
+    height: auto;
+}
+#rgt-sd {
+    border: solid red 2px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Anton", sans-serif;
 
 }
