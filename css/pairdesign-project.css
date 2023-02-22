@@ -15,20 +15,26 @@ body {
     font-family: 'Abel', sans-serif;
 }
 #logo {
-    width: 10%;
+    margin: 1em;
+    border: solid .5px #F0F0F0;
+    border: 50%;
+    width: 5em;
     height: auto;
 }
-#header {
-    margin-top: 5em;
+h1 {
+    margin: auto;
+    width: 100%
     text-align: center;
     font-family: "Anton", sans-serif;
-    font-size: xxx-large;
+    font-size: 4em;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#sub-header {
+h2 {
     margin-top: 1em;
+    margin: auto;
     text-align: center;
     font-family: "Anton", sans-serif;
     font-size: xxx-large;
@@ -37,14 +43,23 @@ body {
     align-items: center;
 }
 #dots {
-    margin-top: 2em;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+
+    width: 44%;
+    margin: auto;
+
+
 }
 #red-dot {
+    padding: 2em;
     background-color: #E6563B;
     border: solid 5px #FFFFFF;
     border-radius: 50%;
-    height: 75px;
-    width: 75px;
+
+    height: 78px;
+    width: 78px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,11 +67,12 @@ body {
     font-family: "Anton", sans-serif;
 }
 #orange-dot {
+    padding: 1em;
     background-color: #EB9D3A;
     border: solid 5px #FFFFFF;
     border-radius: 50%;
-    height: 75px;
-    width: 75px;
+    height: 78px;
+    width: 78px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,11 +80,12 @@ body {
     font-family: "Anton", sans-serif;
 }
 #green-dot {
+    padding: 1em;
     background-color: #7CB06C;
     border: solid 5px #FFFFFF;
     border-radius: 50%;
-    height: 75px;
-    width: 75px;
+    height: 78px;
+    width: 78px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,11 +93,12 @@ body {
     font-family: "Anton", sans-serif;
 }
 #blue-dot {
+    padding: 1em;
     background-color: #00ABA9;
     border: solid 5px #FFFFFF;
     border-radius: 50%;
-    height: 75px;
-    width: 75px;
+    height: 78px;
+    width: 78px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,11 +107,13 @@ body {
 }
 
 #left-images{
-    width: 95%;
-    height: auto;
+    border: solid 4px darkgray;
+    margin: .5em;
+    width: 450px;
+    height: 450px;
 }
 #left-side {
-    border: solid 1px red;
+
 }
 
 #img-icons {
@@ -167,22 +187,23 @@ p {
 }
 #rgt-images {
 
-    border: green solid 1px;
+
     display: flex;
-    width: 5%;
+    width:  50px;
     height: auto;
 
-    margin: 1em;
+    margin: .5em;
 }
 #rgt-sd {
-    width: 65%;
+    margin-left: 4em;
+    height: 65%;
     /*border: solid red 2px;*/
     display: flex;
     /*flex-direction: column;*/
     font-family: "Anton", sans-serif;
 }
 #right-text{
-    border: solid blue 1px;
+
 
     display: flex;
     word-wrap: break-word;
@@ -212,11 +233,7 @@ p {
     font-family: "Abel", sans-serif;
 }
 #tweet {
-    /*position: absolute;*/
-    /*!*top: 0;*!*/
-    /*!*left: 0;*!*/
-
-    /*border: solid blue 2px;*/
+    margin: .5em;
     display: flex;
     height: 15%;
     width: 15%;
@@ -225,19 +242,12 @@ p {
     position: absolute;
     top: 100%;
     left: 0;
-    display: flex;
-    /*flex-direction: row;*/
-    /*border: solid green 3px;*/
+    margin: .5em;
 
 
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 25%;
-    height: auto;
 }
 #rgt-sd {
-    border: solid red 2px;
+
     display: flex;
     flex-direction: column;
     font-family: "Anton", sans-serif;
