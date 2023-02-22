@@ -151,9 +151,14 @@ p {
 }
 #rgt-images {
     display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 25%;
     height: auto;
 }
 #rgt-sd {
     border: solid red 2px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Anton", sans-serif;
 }
