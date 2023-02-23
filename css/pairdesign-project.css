@@ -7,10 +7,6 @@
 body {
     background-color: #F0F0F0;
 }
-#main{
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-}
 #website-fonts {
     font-family: 'Abel', sans-serif;
 }
@@ -28,9 +24,9 @@ h1 {
     font-family: "Anton", sans-serif;
     font-size: 4em;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
 h2 {
     margin-top: 1em;
@@ -47,13 +43,13 @@ h2 {
     display: flex;
     justify-content: space-between;
 
-    width: 44%;
+    width: 64%;
     margin: auto;
 
 
 }
 #red-dot {
-    padding: 2em;
+    padding: 1em;
     background-color: #E6563B;
     border: solid 5px #FFFFFF;
     border-radius: 50%;
